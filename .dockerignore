@@ -1,0 +1,12 @@
+.git
+.idea
+.claude
+
+.env
+secrets/
+
+*.exe
+*.log
+tmp/
+dist/
+build/

@@ -1,0 +1,15 @@
+services:
+  cbex-cron:
+    build: .
+    env_file:
+      - .env
+    environment:
+      TZ: Asia/Shanghai
+      RESEND_API_KEY_FILE: /run/secrets/resend_api_key
+    secrets:
+      - resend_api_key
+    restart: unless-stopped
+
+secrets:
+  resend_api_key:
+    file: ./secrets/resend_api_key

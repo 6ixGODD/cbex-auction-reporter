@@ -1,0 +1,41 @@
+# Go build output
+/bin/
+/dist/
+/build/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go test and coverage
+*.test
+coverage.out
+*.cover
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Docker secrets
+/secrets/*
+!/secrets/.gitignore
+
+# Logs and temporary files
+*.log
+/tmp/
+*.tmp
+*.bak
+
+# Editor and IDE state
+.idea/
+.vscode/
+.claude/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
