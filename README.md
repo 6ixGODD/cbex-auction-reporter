@@ -56,3 +56,7 @@ docker compose up -d --build
 | `MAIL_DEFAULT_FROM_NAME` | 邮件发件人名称 | `CBEX Cron` |
 | `RESEND_API_KEY` | Resend API Key | 可选 |
 | `RESEND_API_KEY_FILE` | Resend API Key 文件路径 | `secrets/resend_api_key` |
+
+## 免责声明
+
+本项目只做公开网页信息的定时抓取和通知，不保证数据完整性、实时性或准确性。项目不提供任何投资、竞拍或法律建议，实际信息请以官方页面和相关公告为准。
